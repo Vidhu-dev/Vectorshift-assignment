@@ -166,3 +166,4 @@ websocket-client==1.5.1
 websockets==11.0.3
 widgetsnbextension==4.0.5
 yarl==1.8.2
+python-dotenv==1.0.1

@@ -21,6 +21,7 @@ export const DataForm = ({ integrationType, credentials }) => {
             const formData = new FormData();
             formData.append('credentials', JSON.stringify(credentials));
             const response = await axios.post(`http://localhost:8000/integrations/${endpoint}/load`, formData);
+            console.log( "Data returned from the load endpoint",response);
             const data = response.data;
             setLoadedData(data);
         } catch (e) {
