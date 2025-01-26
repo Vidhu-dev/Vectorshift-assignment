@@ -1,0 +1,82 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build directory
+build/
+
+# Static files cache
+.DS_Store
+*.pem
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+logs/
+*.log
+*.log.*
+
+# Temporary files and artifacts
+*.tmp
+*.swp
+*.swo
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# React Testing Library
+coverage/
+
+# Parcel-bundler cache
+.cache/
+
+# ESLint cache
+.eslintcache
+
+# Prettier formatting
+*.prettierignore
+
+# Storybook
+storybook-static/
+
+# Custom lint/format cache
+.cache/
+*.lintcache
+
+# Miscellaneous
+*.tgz
+*.lock-wscript
+.cache-loader/
+*.log
+
+# Generated files
+dist/
+out/
+public/
+
+# Firebase files
+.firebase/
+
+# Next.js
+.next/
+.vercel/
